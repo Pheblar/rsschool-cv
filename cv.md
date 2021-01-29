@@ -27,3 +27,9 @@ I was born on 9th of february in 1996. I am an engineer at the field of optoelec
 - Selection of sample preparation parameters before measurement;
 - Testing of the latest software versions supplied to the device;
 - Participation in the development of new mathematical models for data processing.
+
+### Contact with me:
+
+Phone number:  +375447718766 
+
+Telegram: @attabar
