@@ -30,7 +30,7 @@ body {
 }
 .container {
     width: 100%;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 .contacts-inner {
     display: flex;
@@ -207,6 +207,11 @@ footer {
 }
 .footer-tel,
 .footer-skype {
+    color: #e0a80d;
+    font-weight: 700;
+}
+
+.footer--black {
     color: #e0a80d;
     font-weight: 700;
 }
