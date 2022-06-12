@@ -46,7 +46,8 @@ body {
 .photo-area {
     background-color: #2b2c2c;
 }
-.intro-inner {
+.intro-inner,
+.code-inner  {
     display: flex;
 }
 .photo-area {
@@ -92,7 +93,8 @@ h2 {
     display: flex;
 }
 .about-inner-textside,
-.skills-inner-textside {
+.skills-inner-textside,
+.code-inner-textside {
     background-color: #292a2a;
     padding: 5px 60px;
     width: 35%;
@@ -100,7 +102,8 @@ h2 {
     color: #a4a5a6;
     font-weight: 700;
 }
-.about-inner-main {
+.about-inner-main,
+.code-inner-main {
     background-color: #2b2c2c;
     padding: 25px 90px;
     width: 65%;
@@ -108,11 +111,13 @@ h2 {
 }
 .lasertextbold {
     color:#e0a80d;
+    text-decoration: underline;
 }
 .skills-inner {
     display: flex;
 }
-.skills-inner-main {
+.skills-inner-main,
+.code-inner-main {
     background-color: #2b2c2c;
     padding: 25px 90px 0px 0px;
     width: 65%;
@@ -125,6 +130,10 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     background-color:   #292a2a;
+}
+.code-inner-main {
+    display: flex;
+    flex-wrap: wrap;
 }
 .skills-inner-main-content {
     width: 340px;
@@ -210,8 +219,23 @@ footer {
     color: #e0a80d;
     font-weight: 700;
 }
-
 .footer--black {
     color: #e0a80d;
     font-weight: 700;
+}
+h4 {
+    font-family: 'Poppins';
+    color: brown;
+}
+.console--blue {
+    color:rgb(4, 90, 250);
+}
+.console--yellow {
+    color: #e0a80d;
+}
+h4 a {
+    text-decoration: none;
+    color: #e0a80d;
+    font-weight: 300;
+    text-decoration: underline;
 }
