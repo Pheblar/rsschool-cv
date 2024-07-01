@@ -136,11 +136,19 @@ h2 {
     flex-wrap: wrap;
 }
 .skills-inner-main-content {
+    display: flex;
+    flex-direction: column;
     width: 340px;
     margin-left: 90px;
     height: 200px;
 }
-h3::before {
+.skills-inner-main-content li {
+    padding: 0;
+}
+.skills-content-name {
+    margin-bottom: 20px;
+}
+.skills-content-name::before {
     content: "\ea11";
     font-family: 'icomoon';
     padding-right: 20px;
